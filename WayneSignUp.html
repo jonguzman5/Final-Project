@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="WayneHeaderStylesheet.css">
+<script src="WayneHeaderJavaScript.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="WayneEnterprisesStylesheet.css">
+<link rel="stylesheet" type="text/css" href="WayneCollapsingStylesheet.css">
+<link href="https://fonts.googleapis.com/css?family=Lateef" rel="stylesheet">
+	<title>Wayne Enterprises Sign-Up Page</title>
+</head>
+<body onload="addDivs(0)" onload="navopen(0)">
+    
+<div id="wayneenterprises">Wayne Enterprises</div>
+<div id="nav">
+  <a href="javascript:void(0)" class="close" onclick="navclose()">&#9776;</a>
+  <a href="WayneEnterprisesHome.html"><span id="wayne"><img src="W.jpg" height="55px" width="55px"></span></a>    
+  <a href="WayneEnterprisesHome.html">Home</a>
+  <a href="WayneAboutUs.html">About us</a>
+  <a href="WayneProducts.html">Products</a>
+  <a href="WayneReviews.html">Reviews</a>
+  <a href="WayneCareers.html">Careers</a>    
+  <a href="WayneContactUs.html">Contact us</a>
+  <a href="WayneSignIn.html">Sign In</a>    
+  <a href="WayneSignUp.html">Sign Up</a>
+</div>
+  
+<span id="open" onclick=" return navopen()">&#9776;</span>
+<br><br>
+<br><br>
+<br><br>
+    
+<div id="signupbanner"></div>
+<div id="signupcontent">
+   <center><h1>Wayne Enterprises Sign-Up Form</h1>
+       <br>
+       <hr>
+       <br><br>
+        <form>
+            <label for="ffirstname">First Name</label>
+            <input type="text" placeholder="First Name" ID="ffirstname">
+            <br><br>
+
+            <label for="llastname">Last Name</label>
+            <input type="text" placeholder="Last Name" ID="llastname">
+            <br><br>
+            
+            <label for="eemailaddress">Email Address</label>
+            <input type="email" placeholder="Email Address" ID="eemailaddress">
+            <br><br>
+            
+            <label for="ppassword">Password</label>
+            <input type="password" placeholder="Password" ID="ppassword">
+            <br><br>
+            
+            <label for="cconfirmpassword">Confirm Password</label>
+            <input type="" placeholder="Confirm Password" ID="cconfirmpassword">
+            <br><br>
+
+            <label>Which one these are you?</label>
+            
+            <input type="radio" name="signuper">
+            <label>Employent Candidate</label>
+            <input type="radio" name="signuper">
+             <label>Customer</label>
+            <input type="radio" name="signuper">
+            <label for="oother">Other</label>
+            <input type="text" placeholder="Please Specify" ID="oother">
+            <br><br>
+            <label>What is your Age?</label>
+            <select>
+                <option>--Enter Your Age--</option>
+                <option>10 - 20</option>
+                <option>20 - 30</option>
+                <option>30 - 40</option>
+                <option> 50+ </option>
+            </select>
+            <br><br>
+
+            <a href="StartUpsAboutUsPage.html" tr>Terms of Service</a>
+            <br><br>
+
+            <label>Do you agree with the terms of service?</label>
+            <input type= "checkbox">
+            <br><br>
+            
+            <input type="submit" value="Sign Up">
+            <input type="reset" value="Cancel">    
+        </form> 
+       </center>
+    </div>
+
+<style>
+#rightnav {
+    font-family: times;
+    height: 18px;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #1a1a1a;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 96px;
+    padding-left: 100px;
+    opacity: 0.5;
+    display: inline-block;
+    margin: -40 -510 0 0;
+}
+#rightnav a {
+    padding: 0 8px 8px 12px;
+    margin-top: -20px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #4d4d4d;
+    display: inline-block;
+    transition: 0.3s;
+}
+#rightnav a:hover, a:focus{
+    color: #f1f1f1;
+}
+#rightnav {
+    position: fixed;
+    top: -10px;
+    right: 20px;
+    font-size: 1px;
+    margin-left: 50px;
+    display: inline-block;
+}
+.closebutton {
+    position: fixed;
+    top: 48px;
+    margin-left: 795px;
+    display: inline-block;
+}
+#openbutton {
+    font-size: 36px;
+    color: dimgray;
+    cursor: pointer;
+    position: fixed;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    display: inline-block;
+}
+@media screen and (max-height: 450px) {
+  #rightnav {padding-top: 15px;}
+  #rightnav a {font-size: 18px;}
+}   
+</style>
+    
+</body>
+</html>

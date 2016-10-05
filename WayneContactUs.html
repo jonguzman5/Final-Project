@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="WayneHeaderStylesheet.css">
+<script src="WayneHeaderJavaScript.js"></script>
+<script src="WayneEnterprisesJavaScript.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="WayneEnterprisesStylesheet.css">
+<link rel="stylesheet" type="text/css" href="WayneCollapsingStylesheet.css">
+<link href="https://fonts.googleapis.com/css?family=Lateef" rel="stylesheet">
+	<title>Wayne Enterprises Contact Page</title>
+</head>
+<body onload="addDivs(0)" onload="navopen(0)">
+    
+<div id="wayneenterprises">Wayne Enterprises</div>
+<div id="nav">
+  <a href="javascript:void(0)" class="close" onclick="navclose()">&#9776;</a>    
+  <a href="WayneEnterprisesHome.html">Home</a>
+  <a href="WayneAboutUs.html">About us</a>
+  <a href="WayneProducts.html">Products</a>
+  <a href="WayneReviews.html">Reviews</a>
+  <a href="WayneCareers.html">Careers</a>    
+  <a href="WayneContactUs.html">Contact us</a>
+  <a href="WayneSignIn.html">Sign In</a>    
+  <a href="WayneSignUp.html">Sign Up</a>
+</div>
+  
+<span id="open" onclick=" return navopen()">&#9776;</span>
+<br><br>
+<br><br>
+<br><br>
+
+<div id="contactbanner"></div>
+    <div id="contactform">
+        <h1>Contact Form</h1>
+    <br><br>
+<form>
+		<label for="ffirstname">First Name:</label>
+		<input type="text" placeholder="First Name..." ID="ffirstname">
+		<br><br>
+		<label for="llastname">Last Name:</label>
+		<input type="text" placeholder="Last Name..." ID="llastname">
+		<br><br>
+		<label for="emeail">Email:</label>
+		<input type="email" placeholder="Email..." ID='eemail'>
+		<br><br>
+		<label for="pphonenumber">Phone Number:</label>
+		<input type="tel" placeholder="000-000-0000" ID='pphonenumber'>
+		<br><br>
+		<label>Comments</label>
+		<br><br>
+		<textarea cols="50" rows="10"></textarea>
+	    <p>If you would like to make a purchase please provide your<br>Military, Medical or Businesss Executive Credentials below.</p>
+		<br><br>
+        <div id="fileupload">
+        <span>Upload</span>
+        <input type="file" id="upload">
+        </div>
+        <br>
+		<input type="submit" value="Submit">
+		<input type="reset" value="Cancel">
+</form>
+</div>     
+    
+</body>
+</html>
