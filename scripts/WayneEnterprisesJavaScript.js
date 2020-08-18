@@ -10,7 +10,7 @@ window.onload = function(){
     var promo = document.getElementById("WaynePromo");
     var play = document.getElementById("WaynePromo");
     play.addEventListener("click",function(){promo.play();
-    });   
+    });
    }
 /*-----------------------------*/
 function move() {
@@ -24,7 +24,7 @@ function frame() {
     pos++;
     elem.style.left = pos + 'px';
   }
- } 
+ }
 }
 /*---------------------------------*/
 var organization = 0;

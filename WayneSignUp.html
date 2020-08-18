@@ -1,35 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="WayneHeaderStylesheet.css">
-<script src="WayneHeaderJavaScript.js"></script>
-<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="WayneEnterprisesStylesheet.css">
-<link rel="stylesheet" type="text/css" href="WayneCollapsingStylesheet.css">
 <link href="https://fonts.googleapis.com/css?family=Lateef" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="./css/WayneEnterprisesStylesheet.css">
+<link rel="stylesheet" type="text/css" href="./css/WayneCollapsingStylesheet.css">
+<link rel="stylesheet" type="text/css" href="./css/WayneHeaderStylesheet.css">
+<script src="./scripts/WayneHeaderJavaScript.js"></script>
 	<title>Wayne Enterprises Sign-Up Page</title>
 </head>
 <body onload="addDivs(0)" onload="navopen(0)">
-    
+
 <div id="wayneenterprises">Wayne Enterprises</div>
 <div id="nav">
   <a href="javascript:void(0)" class="close" onclick="navclose()">&#9776;</a>
-  <a href="WayneEnterprisesHome.html"><span id="wayne"><img src="W.jpg" height="55px" width="55px"></span></a>    
+  <a href="WayneEnterprisesHome.html"><span id="wayne"><img src="W.jpg" height="55px" width="55px"></span></a>
   <a href="WayneEnterprisesHome.html">Home</a>
   <a href="WayneAboutUs.html">About us</a>
   <a href="WayneProducts.html">Products</a>
   <a href="WayneReviews.html">Reviews</a>
-  <a href="WayneCareers.html">Careers</a>    
+  <a href="WayneCareers.html">Careers</a>
   <a href="WayneContactUs.html">Contact us</a>
-  <a href="WayneSignIn.html">Sign In</a>    
+  <a href="WayneSignIn.html">Sign In</a>
   <a href="WayneSignUp.html">Sign Up</a>
 </div>
-  
+
 <span id="open" onclick=" return navopen()">&#9776;</span>
 <br><br>
 <br><br>
 <br><br>
-    
+
 <div id="signupbanner"></div>
 <div id="signupcontent">
    <center><h1>Wayne Enterprises Sign-Up Form</h1>
@@ -44,21 +44,21 @@
             <label for="llastname">Last Name</label>
             <input type="text" placeholder="Last Name" ID="llastname">
             <br><br>
-            
+
             <label for="eemailaddress">Email Address</label>
             <input type="email" placeholder="Email Address" ID="eemailaddress">
             <br><br>
-            
+
             <label for="ppassword">Password</label>
             <input type="password" placeholder="Password" ID="ppassword">
             <br><br>
-            
+
             <label for="cconfirmpassword">Confirm Password</label>
             <input type="" placeholder="Confirm Password" ID="cconfirmpassword">
             <br><br>
 
             <label>Which one these are you?</label>
-            
+
             <input type="radio" name="signuper">
             <label>Employent Candidate</label>
             <input type="radio" name="signuper">
@@ -83,10 +83,10 @@
             <label>Do you agree with the terms of service?</label>
             <input type= "checkbox">
             <br><br>
-            
+
             <input type="submit" value="Sign Up">
-            <input type="reset" value="Cancel">    
-        </form> 
+            <input type="reset" value="Cancel">
+        </form>
        </center>
     </div>
 
@@ -147,8 +147,8 @@
 @media screen and (max-height: 450px) {
   #rightnav {padding-top: 15px;}
   #rightnav a {font-size: 18px;}
-}   
+}
 </style>
-    
+
 </body>
 </html>

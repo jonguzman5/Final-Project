@@ -19,12 +19,12 @@
 	position: absolute;
 	top: 750px;
 	height: 1000px;
-    background: url(WayneEnterprisesBuilding.png);
+    background: url(../img/WayneEnterprisesBuilding.png);
     background-size: 100% 85%;
     background-position: absolute;
 }
 #mid1{
-    width: 33.3%; 
+    width: 33.3%;
     float: left;
     background-color: #333333;
     text-align: center;
@@ -37,7 +37,7 @@
     opacity: 0.8;
 }
 #mid3{
-    width: 33.3%; 
+    width: 33.3%;
     float: left;
     background-color: #333333;
     opacity: 0.8;
@@ -51,8 +51,8 @@
 	position: absolute;
 	top: 600px;
 	height: 1000px;
-    margin: 1000px 0 0 0; 
-    background: url(gotham.jpg);
+    margin: 1000px 0 0 0;
+    background: url(../img/gotham.jpg);
     background-size: 100% 100%;
 }
 #dcmaps{
